@@ -5568,3 +5568,136 @@ a{
 .slick-arrow.slick-hidden {
     display: none;
 }
+
+/* Logo */
+.bubble-wrap {
+  overflow: hidden;
+  height: 600px;
+}
+
+.bubbles {
+  position: relative;
+  background: salmon;
+}
+
+.bubble {
+  position: absolute;
+  width: 152px;
+  height: 152px;
+  border-radius: 50%;
+  box-shadow: 
+    0 15px 35px rgba(0, 0, 0, 0.1),
+    0 3px 10px rgba(0, 0, 0, 0.1);
+  background-image: url(https://res.cloudinary.com/dfng74ru6/image/upload/v1668505349/logo-animation-slider_1_awg6vk.png);
+  background-size: 1076px 1076px;
+}
+
+.logo1 { background-position:   0      0; }
+.logo2 { background-position:  -154px  0; }
+.logo3 { background-position:  -308px  0; }
+.logo4 { background-position:  -462px  0; }
+.logo5 { background-position:  -616px  0; }
+.logo6 { background-position:  -770px  0; }
+.logo7 { background-position:  -924px  0; }
+.logo8 { background-position:   0     -154px; }
+.logo9 { background-position:  -154px -154px; }
+.logo10 { background-position: -308px -154px; }
+.logo11 { background-position: -462px -154px; }
+.logo12 { background-position: -616px -154px; }
+.logo13 { background-position: -770px -154px; }
+.logo14 { background-position: -924px -154px; }
+.logo15 { background-position:  0     -308px; }
+.logo16 { background-position: -154px -308px; }
+.logo17 { background-position: -308px -308px; }
+.logo18 { background-position: -462px -308px; }
+.logo19 { background-position: -616px -308px; }
+.logo20 { background-position: -770px -308px; }
+.logo21 { background-position: -924px -308px; }
+.logo22 { background-position:  0     -462px; }
+.logo23 { background-position: -154px -462px; }
+.logo24 { background-position: -308px -462px; }
+.logo25 { background-position: -462px -462px; }
+.logo26 { background-position: -616px -462px; }
+.logo27 { background-position: -770px -462px; }
+.logo28 { background-position: -924px -462px; }
+.logo29 { background-position:  0     -616px; }
+.logo30 { background-position: -154px -616px; }
+.logo31 { background-position: -308px -616px; }
+.logo32 { background-position: -462px -616px; }
+.logo33 { background-position: -616px -616px; }
+
+
+/*--------------------------------------------------------------
+# Team
+--------------------------------------------------------------*/
+.member {
+    margin-bottom: 20px;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0px 2px 15px rgba(18, 66, 101, 0.08);
+  }
+  
+.member .member-img {
+    position: relative;
+    overflow: hidden;
+  }
+  
+.member .social {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 40px;
+    opacity: 0;
+    transition: ease-in-out 0.3s;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.85);
+  }
+  
+.member .social a {
+    transition: color 0.3s;
+    color: #124265;
+    margin: 0 10px;
+    padding-top: 8px;
+    display: inline-block;
+  }
+  
+.member .social a:hover {
+    color: #2487ce;
+  }
+  
+.member .social i {
+    font-size: 18px;
+    margin: 0 2px;
+  }
+  
+.member .member-info {
+    padding: 25px 15px;
+  }
+  
+.member .member-info h4 {
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: #124265;
+  }
+  
+.member .member-info span {
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+    color: #aaaaaa;
+  }
+  
+.member .member-info p {
+    font-style: italic;
+    font-size: 14px;
+    line-height: 26px;
+    color: #777777;
+  }
+  
+.member:hover .social {
+    opacity: 1;
+  }
