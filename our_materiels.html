@@ -113,10 +113,10 @@
                     <a href="about_us.html">A propos de nous</a>
                   </li>
                   <li class="pretty-nav-menu__item--cta">
-                    <a class="c-button c-button c-button--primary" data-track data-track-section="Nav" href="contact.html">
-                      Nous contacter
-                    </a>
-                  </li>
+              <a class="c-button c-button c-button--primary" data-track data-track-section="Nav" data-bs-toggle="offcanvas" href="#contactCanvas"  href="contact.html">
+                Nous contacter
+              </a>
+            </li>
                 </ul>
               </div>
             </div>
@@ -161,7 +161,7 @@
                         </a>
                       </li>
                       <li class="pretty-nav-menu__item">
-                        <a href="contact.html">
+                        <a data-bs-toggle="offcanvas" href="#contactCanvas" >
                           Nous contacter
                         </a>
                       </li>
@@ -186,7 +186,7 @@
                       <div class="pretty-nav-menu-links" data-menu-link-group="">
                         <ul class="pretty-nav-menu__group">
                           <li class="pretty-nav-menu__item"><a href="our_solutions.html">Nos solutions</a></li>
-                          <li class="pretty-nav-menu__item"><a href="our_materials.html">Nos materiels et
+                          <li class="pretty-nav-menu__item"><a href="our_materiels.html">Nos materiels et
                               consommables</a></li>
                           <li class="pretty-nav-menu__item"><a href="our_services.html">Services</a></li>
                         </ul>
@@ -234,8 +234,6 @@
             <img alt="" class="img-fluid"
               src="https://res.cloudinary.com/dfng74ru6/image/upload/v1667898530/bobine-papier-thermique-TPE-94_l41iah.jpg"
               style="border-radius: 6px !important">
-            
-  
           </div>
   
         </div>
@@ -468,6 +466,84 @@
       </div>
     </footer>
   </section>
+
+  <div class="offcanvas offcanvas-end col-12" tabindex="-1" id="contactCanvas" aria-labelledby="offcanvasExampleLabel" style="width: 500px;">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+        <div class="row d-flex align-items-center">
+            <!--<img alt="BFT logo" height="45px" src="assets/img/logo-BFT.png">
+            <div class="row d-flex">
+              <div class="col-9">
+                <p >+22960006060</p>
+      
+              </div>
+
+            </div>-->
+            <div class="row d-flex align-items-center">
+              <div class="col-4">
+                <img alt="BFT logo" height="25px" src="assets/img/icon/service-clients.png">
+              </div>
+              <div class="col-8">
+                <p class="" >+22960006060</p>
+              </div>
+            </div>
+
+          
+
+        </div>
+      </h5>
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    
+    <div class="offcanvas-body">
+
+      <div class="h1 d-flex justify-content-center mb-3" bis_skin_checked="1" style="color: #2e3946;">Laissez nous un message !</div>
+      <div class="p d-flex justify-content-center mb-3 text-center pb-5" bis_skin_checked="1">Nous repondons le plus rapidement possible à votre message!</div>
+      <div class="col-md-12" bis_skin_checked="1">
+        <!--<a href="mailto:contact@kodesio.com" class="k-btn-primary d-flex justify-content-center align-items-center w-100" bis_skin_checked="1"><i class="bi bi-envelope" style="margin-right: 10px !important"></i>
+          <span> contact@kodesio.com</span></a>-->
+      </div>
+    
+      
+      <div class="row gy-4">
+
+        <div class="col-md-12">
+          <label for="name">Nom de l'entreprise (Optionnel)</label>
+          <input type="text" name="name" id="name" class="form-control" required="">
+        </div>
+
+        <div class="col-md-12">
+          <label for="name">Nom</label>
+          <input type="text" name="name" id="name" class="form-control" required="">
+        </div>
+        
+  
+        <div class="col-md-6 ">
+          <label for="email">Email</label>
+          <input type="email" class="form-control" name="email" id="email" required="">
+        </div>
+  
+        <div class="col-md-6 ">
+          <label for="telephone">Téléphone</label>
+          <input type="tel" class="form-control" name="telephone" id="telephone" required="">
+        </div>
+  
+        <div class="col-md-12">
+          <label for="message">Message</label>
+          <textarea class="form-control" id="message" name="message" rows="6" required=""></textarea>
+        </div>
+
+        <div class="col-md-12 d-flex text-center ">
+          <a type="submit" role="button"  class="c-button c-button justify-content-center align-items-center w-100" style="background-color: #2e3946; color: #fff;">Envoyer</a>
+        </div>
+
+      </div>
+
+
+
+    
+    </div>
+  </div>
 
     
       <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
