@@ -2070,27 +2070,27 @@ header {
 }
 
 .pretty-nav--green {
-    background: rgba(241, 254, 244, 0.95)
+    background: rgba(241, 254, 244, 1)
 }
 
 .pretty-nav--white {
-    background: rgba(255, 255, 255, 0.95)
+    background: rgba(255, 255, 255, 1)
 }
 
 .pretty-nav--offwhite {
-    background: rgba(249, 251, 252, 0.95)
+    background: rgba(249, 251, 252, 1)
 }
 
 .pretty-nav--grey {
-    background: rgba(249, 250, 252, 0.9)
+    background: rgba(249, 250, 252, 1)
 }
 .pretty-nav--light {
-    background: rgba(255, 255, 255,0.98)
+    background: rgba(255, 255, 255,1)
 }
 
 
 .pretty-nav--dark-blue {
-    background: rgba(46, 57, 70,0.98)
+    background: rgba(46, 57, 70,1)
 }
 
 .pretty-nav--dark-blue .pretty-nav--left>.pretty-nav-menu>.pretty-nav-menu__item>a,
