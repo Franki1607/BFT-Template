@@ -5163,7 +5163,7 @@ a{
 
   /* Map */
 /* .maps path {fill: lightgray; stroke: white;} */
-.maps path:hover {fill: gray;}
+.maps path:hover {fill: #2f3945;}
 
 
 /* b-icons */
