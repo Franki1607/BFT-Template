@@ -1031,7 +1031,7 @@ progress {
 
 .g-5,
 .gx-5 {
-  --bs-gutter-x: 2rem
+  --bs-gutter-x: 5rem
 }
 
 .g-5,
@@ -1081,12 +1081,12 @@ progress {
 
 .g-10,
 .gx-10 {
-  --bs-gutter-x: 4.5rem
+  --bs-gutter-x: 8rem
 }
 
 .g-10,
 .gy-10 {
-  --bs-gutter-y: 4.5rem
+  --bs-gutter-y: 8rem
 }
 
 @media (min-width: 576px) {
@@ -10130,7 +10130,7 @@ fieldset:disabled .btn {
 
 .text-dark {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-dark-rgb), var(--bs-text-opacity)) !important
+  color: #2e3946, var(--bs-text-opacity)) !important
 }
 
 .text-black {

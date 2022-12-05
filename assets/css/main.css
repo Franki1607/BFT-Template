@@ -3783,7 +3783,7 @@ header {
 }
 
 
-.c-feature {
+.row_two_column {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: center;
@@ -3792,18 +3792,18 @@ header {
 }
 
 @media screen and (max-width: 600px) {
-    .c-feature {
+    .row_two_column {
         display: block;
         margin-bottom: 50px
     }
 }
 
-.c-feature:last-child {
+.row_two_column:last-child {
     margin-bottom: 0
 }
 
-.c-feature__left,
-.c-feature__right {
+.row_two_column__left,
+.row_two_column__right {
     -ms-flex: 1;
     flex: 1;
     display: -ms-flexbox;
@@ -3816,21 +3816,21 @@ header {
 
 @media screen and (max-width: 600px) {
 
-    .c-feature__left,
-    .c-feature__right {
+    .row_two_column__left,
+    .row_two_column__right {
         display: block;
         width: 100%;
         margin-top: 50px
     }
 }
 
-.c-feature__left {
+.row_two_column__left {
     margin-right: 50px;
     -ms-flex-align: center;
     align-items: center
 }
 
-.c-feature--reversed .c-feature__left {
+.row_two_column--reversed .row_two_column__left {
     -ms-flex-order: 2;
     order: 2;
     margin-left: 50px;
@@ -3838,82 +3838,82 @@ header {
 }
 
 @media screen and (max-width: 600px) {
-    .c-feature--reversed .c-feature__left {
+    .row_two_column--reversed .row_two_column__left {
         margin: 0
     }
 }
 
-.c-feature__right {
+.row_two_column__right {
     -ms-flex-align: center;
     align-items: center
 }
 
-.c-feature--reversed .c-feature__right {
+.row_two_column--reversed .row_two_column__right {
     -ms-flex-align: center;
     align-items: center
 }
 
-.c-feature__body {
+.row_two_column__body {
     width: 100%;
     max-width: 500px
 }
 
-.c-feature__text {
+.row_two_column__text {
     margin-bottom: 10px
 }
 
-.c-feature__text p {
+.row_two_column__text p {
     font-size: 1.9rem;
     line-height: 1.5;
     letter-spacing: -0.01em
 }
 
 @media screen and (max-width: 600px) {
-    .c-feature__text p {
+    .row_two_column__text p {
         font-size: 1.7rem
     }
 }
 
-.c-feature__benefits {
+.row_two_column__benefits {
     margin: 30px 0
 }
 
-.c-feature__entry {
+.row_two_column__entry {
     margin-bottom: 50px
 }
 
-.c-feature__entry:last-of-type {
+.row_two_column__entry:last-of-type {
     margin-bottom: 0
 }
 
-.c-feature__media {
+.row_two_column__media {
     position: relative;
     z-index: 2;
     transition: all 0.3s ease
 }
 
-.c-feature__media--small .c-feature__image,
-.c-feature__media--small .c-feature__video {
+.row_two_column__media--small .row_two_column__image,
+.row_two_column__media--small .row_two_column__video {
     transform: scale(0.4)
 }
 
-.c-feature__media--medium .c-feature__image,
-.c-feature__media--medium .c-feature__video {
+.row_two_column__media--medium .row_two_column__image,
+.row_two_column__media--medium .row_two_column__video {
     transform: scale(0.8)
 }
 
-.c-feature__media figcaption {
+.row_two_column__media figcaption {
     position: absolute;
     width: 100%
 }
 
-.c-feature__image,
-.c-feature__video {
+.row_two_column__image,
+.row_two_column__video {
     position: relative
 }
 
-.c-feature__image figcaption,
-.c-feature__video figcaption {
+.row_two_column__image figcaption,
+.row_two_column__video figcaption {
     padding: 12px;
     padding-left: 2px;
     font-size: 1.2rem;
@@ -3923,40 +3923,40 @@ header {
     color: rgba(87, 111, 127, 0.95)
 }
 
-.c-feature--reversed .c-feature__image figcaption,
-.c-feature--reversed .c-feature__video figcaption {
+.row_two_column--reversed .row_two_column__image figcaption,
+.row_two_column--reversed .row_two_column__video figcaption {
     text-align: left
 }
 
-.c-feature__image img,
-.c-feature__image video,
-.c-feature__video img,
-.c-feature__video video {
+.row_two_column__image img,
+.row_two_column__image video,
+.row_two_column__video img,
+.row_two_column__video video {
     max-width: 100%;
     vertical-align: middle
 }
 
-.c-feature__image img,
-.c-feature__video img {
+.row_two_column__image img,
+.row_two_column__video img {
     border-radius: 4px;
     transition: all 0.5s
 }
 
 @media screen and (max-width: 600px) {
 
-    .c-feature__image video,
-    .c-feature__video video {
+    .row_two_column__image video,
+    .row_two_column__video video {
         display: none
     }
 }
 
-.c-feature__image--small-radius img,
-.c-feature__video--small-radius img {
+.row_two_column__image--small-radius img,
+.row_two_column__video--small-radius img {
     border-radius: 6px
 }
 
-.c-feature__image--dash:after,
-.c-feature__video--dash:after {
+.row_two_column__image--dash:after,
+.row_two_column__video--dash:after {
     content: "";
     position: absolute;
     left: 24px;
@@ -3967,23 +3967,23 @@ header {
     border: 1.2px dashed rgba(59, 183, 94, 0.5)
 }
 
-.c-feature__image--dash__group,
-.c-feature__video--dash__group {
+.row_two_column__image--dash__group,
+.row_two_column__video--dash__group {
     transform: translateX(24px) translateY(24px)
 }
 
-.c-feature__image--dash__group.custom-animejs-in-view--play,
-.c-feature__video--dash__group.custom-animejs-in-view--play {
+.row_two_column__image--dash__group.custom-animejs-in-view--play,
+.row_two_column__video--dash__group.custom-animejs-in-view--play {
     transform: translateX(0) translateY(0)
 }
 
-.c-feature--reversed .c-feature__image--dash__group.custom-animejs-in-view--play,
-.c-feature--reversed .c-feature__video--dash__group.custom-animejs-in-view--play {
+.row_two_column--reversed .row_two_column__image--dash__group.custom-animejs-in-view--play,
+.row_two_column--reversed .row_two_column__video--dash__group.custom-animejs-in-view--play {
     transform: translateX(48px) translateY(0)
 }
 
-.c-feature__image--ring:after,
-.c-feature__video--ring:after {
+.row_two_column__image--ring:after,
+.row_two_column__video--ring:after {
     content: "";
     position: absolute;
     left: 50px;
@@ -3996,13 +3996,13 @@ header {
     opacity: 0.1
 }
 
-.c-feature--reversed .c-feature__image--ring::after,
-.c-feature--reversed .c-feature__video--ring::after {
+.row_two_column--reversed .row_two_column__image--ring::after,
+.row_two_column--reversed .row_two_column__video--ring::after {
     left: auto;
     right: -50px
 }
 
-.c-feature__subscript {
+.row_two_column__subscript {
     font-size: 2.8rem;
     font-weight: 700;
     font-family: "Boing", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -4011,19 +4011,19 @@ header {
     letter-spacing: 1px
 }
 
-.c-feature__cta {
+.row_two_column__cta {
     margin-bottom: 24px
 }
 
-.c-feature__cta .c-button--link {
+.row_two_column__cta .c-button--link {
     font-size: 1.6rem
 }
 
-.c-feature-testimonial {
+.row_two_column-testimonial {
     margin-top: 15px
 }
 
-.c-feature-testimonial__message {
+.row_two_column-testimonial__message {
     padding: 6px 20px;
     background-color: #F9FBFC;
     border-radius: 4px;
@@ -4034,8 +4034,8 @@ header {
     max-width: 450px
 }
 
-.c-feature-testimonial__message::before,
-.c-feature-testimonial__message::after {
+.row_two_column-testimonial__message::before,
+.row_two_column-testimonial__message::after {
     content: '';
     position: absolute;
     width: 0;
@@ -4045,29 +4045,29 @@ header {
     border-bottom: 0
 }
 
-.c-feature-testimonial__message::before {
+.row_two_column-testimonial__message::before {
     bottom: -17px;
     left: 21px;
     border-top-color: rgba(1, 27, 51, 0.06);
     border-width: 16px
 }
 
-.c-feature-testimonial__message::after {
+.row_two_column-testimonial__message::after {
     bottom: -15px;
     left: 22px;
     border-top-color: #F9FBFC;
     border-width: 15px
 }
 
-.custom-fsection--offwhite .c-feature-testimonial__message {
+.custom-fsection--offwhite .row_two_column-testimonial__message {
     background-color: white
 }
 
-.custom-fsection--offwhite .c-feature-testimonial__message::after {
+.custom-fsection--offwhite .row_two_column-testimonial__message::after {
     border-top-color: white
 }
 
-.c-feature-testimonial__author {
+.row_two_column-testimonial__author {
     padding-left: 10px;
     display: -ms-inline-flexbox;
     display: inline-flex;
@@ -4075,18 +4075,18 @@ header {
     align-items: center
 }
 
-.c-feature-testimonial__author-name {
+.row_two_column-testimonial__author-name {
     font-family: "Boing", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     line-height: 1.1;
     margin-bottom: 2px;
     font-size: 1.8rem
 }
 
-.c-feature-testimonial__author-role {
+.row_two_column-testimonial__author-role {
     font-size: 1.2rem
 }
 
-.c-feature-testimonial__author-image {
+.row_two_column-testimonial__author-image {
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -4099,18 +4099,18 @@ header {
     display: flex
 }
 
-.c-feature-testimonial__author-image>img {
+.row_two_column-testimonial__author-image>img {
     -o-object-fit: cover;
     object-fit: cover;
     max-width: 100%
 }
 
-.c-feature-testimonial__author-image--sm {
+.row_two_column-testimonial__author-image--sm {
     width: 48px;
     height: 48px
 }
 
-.c-feature-testimonial__meta {
+.row_two_column-testimonial__meta {
     font-size: 1.4rem
 }
 
