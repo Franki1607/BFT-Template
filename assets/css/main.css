@@ -151,6 +151,16 @@ a:hover {
     outline-width: 0
 }
 
+.selected{
+    color: #80c45a !important;
+}
+
+.hoverdable{
+    hover: #80c45a !important;
+}
+
+
+
 abbr[title] {
     border-bottom: none;
     text-decoration: underline;
@@ -5757,6 +5767,10 @@ a{
   
   #footer .footer-top .footer-links {
     margin-bottom: 30px;
+  }
+
+  #footer .footer-top .footer-links a:hover {
+    color: #80c45a;
   }
   
   #footer .footer-top .footer-links ul {
