@@ -23692,6 +23692,11 @@ input[type=number] {
   margin-bottom: 2.25rem
 }
 
+.step-item a:hover{
+  color: #aaa !important;
+}
+
+
 .step-item-between .step-item:last-child {
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
