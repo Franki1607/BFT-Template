@@ -159,6 +159,7 @@ a:hover {
     hover: #80c45a !important;
 }
 
+.step-it
 
 
 abbr[title] {
@@ -465,7 +466,7 @@ button--primary,
 
 button--primary:hover,
 .c-button--primary:hover {
-    background-color: #5a5a5a;
+    background-color: #80C45A;
     transform: translate(0, -1px);
     box-shadow: 0 6px 2px -6px rgba(42, 134, 68, 0.6)
 }
@@ -2100,7 +2101,7 @@ header {
 
 
 .pretty-nav--dark-blue {
-    background: rgba(46, 57, 70,1)
+    background: rgba(46, 57, 70,1);
 }
 
 .pretty-nav--dark-blue .pretty-nav--left>.pretty-nav-menu>.pretty-nav-menu__item>a,
@@ -2108,14 +2109,21 @@ header {
     color: white
 }
 
-.pretty-nav--dark-blue .pretty-nav--left>.pretty-nav-menu>.pretty-nav-menu__item>a .u-icon-arrow,
+.pretty-nav--dark-blue .pretty-nav--left>.pretty-nav-menu>.pretty-nav-menu__item>a:hover,
+.pretty-nav--dark-blue .pretty-nav--right>.pretty-nav-menu>.pretty-nav-menu__item>a:hover {
+    color: #80C45A
+}
+
+
+
+/*.pretty-nav--dark-blue .pretty-nav--left>.pretty-nav-menu>.pretty-nav-menu__item>a .u-icon-arrow,
 .pretty-nav--dark-blue .pretty-nav--right>.pretty-nav-menu>.pretty-nav-menu__item>a .u-icon-arrow {
     border-color: #80C45A transparent transparent transparent
 }
 
 .pretty-nav--dark-blue .pretty-nav__logo svg path[fill="#011B33"] {
     fill: white
-}
+} */
 
 @media screen and (max-width: 600px) {
     .pretty-nav {
