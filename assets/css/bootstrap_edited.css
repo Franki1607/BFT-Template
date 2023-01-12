@@ -24296,9 +24296,12 @@ input[type=number] {
 }
 
 .step .active .step-title,
-.step .active.is-valid .step-title {
-  color: #80c45a
+.step .active.is-valid .step-title, .step-title:hover {
+  color: #80c45a;
+  
 }
+
+
 
 .step .is-valid .step-icon {
   color: #fff;
