@@ -2172,6 +2172,12 @@ header {
     transition: border linear 0.1s
 }
 
+.pretty-nav--dark-blue .pretty-nav-menu__item a .u-icon-arrow {
+    margin-left: 4px;
+    color: #fff;
+    transition: border linear 0.1s
+}
+
 .pretty-nav-menu__item a:hover {
     color: #80c45a
 }
